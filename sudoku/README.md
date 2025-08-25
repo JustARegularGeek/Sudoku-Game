@@ -1,4 +1,4 @@
-# Sudoku Games in Java
+# Sudoku Game in Java
 
 This repository contains two implementations of Sudoku in Java: 
 1. A **JavaFX GUI version** 
@@ -40,3 +40,4 @@ A text-based version playable in the console.
 ## Requirements
 - Java 21
 - JavaFX 21(for GUI version)
+
