@@ -1,4 +1,4 @@
-module sudokuGame {
+module sudoku {
 	requires javafx.controls;
 	requires javafx.graphics;
 	requires javafx.fxml;
@@ -6,3 +6,4 @@ module sudokuGame {
 	
 	opens application.controllers to javafx.graphics, javafx.fxml;
 }
+
