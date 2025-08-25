@@ -1,0 +1,56 @@
+/* === Global Styles === */
+.root {
+	-fx-background-color: #E1ECF7;
+	-fx-font-family: "Georgia";
+}
+
+/* === Label Styles === */
+Label {
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-text-fill: #0B2952;
+	-fx-font-size: 17px;
+	-fx-font-weight: bold;
+}
+
+/* === Circular Buttons (Choice Buttons) === */
+.choice-button {
+    -fx-background-color: #A3C4F3;
+    -fx-background-radius: 50%;
+    -fx-border-color: #6290D1;
+    -fx-border-radius: 50%;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-text-fill: #0B2952;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.choice-button:hover {
+    -fx-background-color: #BBD2F2;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 2.5, 0, 0, 0);
+}
+
+/* === Rounded Rectangle Buttons (Selection Buttons) === */
+.selection-button {
+    -fx-background-color: #A3C4F3;
+    -fx-background-radius: 10px;
+    -fx-border-color: #6290D1;
+    -fx-border-radius: 10px;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-text-fill: #0D2952;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.selection-button:hover {
+    -fx-background-color: #BBD2F2;
+	-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 5, 0, 0, 0);
+}
+
+/* === Pressed State (Both Buttons) === */
+.choice-button:pressed, .selection-button:pressed {
+    -fx-background-color: #BBD2F2;
+	-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 5, 0, 0, 0);
+}

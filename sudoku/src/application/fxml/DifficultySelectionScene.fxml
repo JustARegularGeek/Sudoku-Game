@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" stylesheets="@../css/application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.SceneContoller">
+   <children>
+      <Label layoutX="145.0" layoutY="63.0" text="Give me the difficulty level: " />
+      <Label layoutX="143.0" layoutY="83.0" text="1. Easy" />
+      <Label layoutX="143.0" layoutY="103.0" text="2. Medium" />
+      <Label layoutX="143.0" layoutY="123.0" text="3. Hard" />
+      <Button layoutX="128.0" layoutY="186.0" mnemonicParsing="false" onAction="#selectDifficultyLevelOne" styleClass="choice-button" text="1" />
+      <Button layoutX="234.0" layoutY="186.0" mnemonicParsing="false" onAction="#selectDifficultyLevelTwo" styleClass="choice-button" text="2" />
+      <Button layoutX="341.0" layoutY="186.0" mnemonicParsing="false" onAction="#selectDifficultyLevelThree" styleClass="choice-button" text="3" />
+   </children>
+</AnchorPane>

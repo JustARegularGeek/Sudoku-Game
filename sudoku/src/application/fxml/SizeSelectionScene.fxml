@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" stylesheets="@../css/application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.SceneContoller">
+   <children>
+      <Button layoutX="148.0" layoutY="174.0" mnemonicParsing="false" onAction="#selectSizeFour" styleClass="choice-button" text="4" />
+      <Button layoutX="313.0" layoutY="174.0" mnemonicParsing="false" onAction="#selectSizeNine" styleClass="choice-button" text="9" />
+      <Label layoutX="100.0" layoutY="75.0" text="Give me the size of the sudoku you" />
+      <Label layoutX="135.0" layoutY="95.0" text="would like to play (4 or 9):" />
+   </children>
+</AnchorPane>
