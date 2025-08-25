@@ -6,6 +6,7 @@ This repository contains two implementations of Sudoku in Java:
 
 Both versions are launched via the `Sudoku.java` class, which asks the user whether they want to play the graphical or terminal game.
 
+
 ## How It Works
 
 1. Run `Sudoku.java`.
@@ -16,6 +17,7 @@ Both versions are launched via the `Sudoku.java` class, which asks the user whet
    - Board size: 4x4 or 9x9
    - Difficulty level: Easy, Medium, or Hard
 
+
 ## Sudoku GUI Game
 
 A graphical Sudoku game using JavaFX.
@@ -25,6 +27,7 @@ A graphical Sudoku game using JavaFX.
 - Multiple difficulty levels (Easy, Medium, Hard)
 - Ending scene when puzzle is solved
 - Non-resizable, non-fullscreen window for consistent layout
+
 
 ## Terminal Sudoku Game
 
