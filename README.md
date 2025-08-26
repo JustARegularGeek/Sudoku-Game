@@ -40,6 +40,34 @@ A text-based version playable in the console.
 - Invalid moves are rejected with an error message
 - Game ends when the board is correctly filled
 
-## Requirements
-- Java 21
-- JavaFX 21(for GUI version)
+## Requirements & Running
+
+### Requirements
+- **Java 21 (JDK)**  
+- **JavaFX 21 SDK** (for the GUI version)  
+  - Download JavaFX from: [https://openjfx.io](https://openjfx.io)  
+  - After extracting, you will have a folder like:
+    ```
+    C:\javafx-sdk-21.0.8\
+    ├── bin\
+    ├── legal\
+    ├── lib\
+    │   ├── javafx.base.jar
+    │   ├── javafx.controls.jar
+    │   ├── javafx.fxml.jar
+    │   ├── javafx.graphics.jar
+    │   └── ... (other modules)
+    └── ...
+    ```
+
+### How to run
+
+This project is best run in **Eclipse**:
+
+1. Import the project into Eclipse as a Java project.
+2. Make sure the JavaFX SDK is added to the module path in Eclipse.
+3. Run the `core.Sudoku` class.
+
+> Note: Running from the terminal or other IDEs requires careful module-path setup
+> and copying resources manually, which may not work out-of-the-box.  
+> The terminal version of the game works without JavaFX.
