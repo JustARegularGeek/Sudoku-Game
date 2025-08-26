@@ -57,7 +57,7 @@ A graphical Sudoku game using JavaFX.
 ### How to Play (GUI)
 
 - **Select a cell** by clicking on it in the grid.
-- **Fill the cell** by clicking the number buttons on the left panel.
+- **Fill the cell** by clicking the number buttons on the left side of the panel.
 - **Clear a cell** using the "Clear" button to remove a number you have entered.
 - **Illegal moves** are highlighted in **red** (cannot place a number that violates Sudoku rules).
 - **Complete the puzzle** to trigger the ending scene.
