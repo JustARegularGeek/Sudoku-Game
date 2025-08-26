@@ -25,7 +25,9 @@ A graphical Sudoku game using JavaFX.
 - **4x4 and 9x9 boards**
   
   ![Size Selection](images/size_scene.png)
+  
   ![4x4 Board](images/4x4_board.png)
+  
   ![9x9 Board](images/9x9_board.png)
 
 - **Multiple difficulty levels (Easy, Medium, Hard)**
