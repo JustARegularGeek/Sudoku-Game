@@ -43,19 +43,6 @@ A text-based version playable in the console.
 - **Java 21 (JDK)**  
 - **JavaFX 21 SDK** (required only for the GUI version)  
   - Download JavaFX from: [https://openjfx.io](https://openjfx.io)  
-  - After extracting, you will have a folder like:
-    ```
-    C:\javafx-sdk-21.0.8\
-    ├── bin\
-    ├── legal\
-    ├── lib\
-    │   ├── javafx.base.jar
-    │   ├── javafx.controls.jar
-    │   ├── javafx.fxml.jar
-    │   ├── javafx.graphics.jar
-    │   └── ... (other modules)
-    └── ...
-    ```
 
 ### How to run
 
@@ -67,5 +54,5 @@ This project is best run in **Eclipse**:
 4. Select the game mode when prompted: GUI or Terminal.
 
 > Note: Running from the terminal or other IDEs requires careful module-path setup
-> and copying resources manually, which may not work out-of-the-box.  
+> and copying resources manuall, which may not work out-of-the-box.  
 > The terminal version of the game works without JavaFX.
