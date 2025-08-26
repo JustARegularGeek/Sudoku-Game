@@ -34,6 +34,11 @@ A graphical Sudoku game using JavaFX.
   
   ![Difficulty Selection](images/difficulty_scene.png)
 
+  - **Invalid Move Highlight**
+    
+  ![Illegal Move](images/illegal_move.png)
+  Cells turn **red** when an illegal move is made
+
 - **Ending scene when puzzle is solved**
   
   ![Ending Scene](images/ending_scene.png)
