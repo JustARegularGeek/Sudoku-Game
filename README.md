@@ -26,15 +26,15 @@ A graphical Sudoku game using JavaFX.
   
    - Select your board size:
   
-  ![Size Selection](images/size_scene.png)
+     ![Size Selection](images/size_scene.png)
 
    - Example of 4x4 board:
   
-  ![4x4 Board](images/4x4_board.png)
+     ![4x4 Board](images/4x4_gui_board.png)
 
    - Example of 9x9 board:
   
-  ![9x9 Board](images/9x9_board.png)
+     ![9x9 Board](images/9x9_gui_board.png)
 
 - **Multiple difficulty levels (Easy, Medium, Hard)**
   
@@ -70,6 +70,15 @@ A text-based version playable in the console.
 
 ### Features
 - Play 4x4 or 9x9 Sudoku in terminal
+
+   - Example of 4x4 board:
+  
+     ![4x4 Board](images/4x4_terminal_board.png)
+
+   - Example of 9x9 board:
+  
+      ![9x9 Board](images/9x9_terminal_board.png)
+  
 - Difficulty levels: Easy, Medium, Hard
 - Fixed cells displayed in parentheses
 - Invalid moves are rejected with an error message
