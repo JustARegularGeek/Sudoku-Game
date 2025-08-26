@@ -32,7 +32,7 @@ A graphical Sudoku game using JavaFX.
   
   ![4x4 Board](images/4x4_board.png)
 
-   -Example of 9x9 board:
+   - Example of 9x9 board:
   
   ![9x9 Board](images/9x9_board.png)
 
