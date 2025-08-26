@@ -56,6 +56,14 @@ A graphical Sudoku game using JavaFX.
 
 - **Non-resizable, non-fullscreen window** for consistent layout
 
+### How to Play (GUI)
+
+- **Select a cell** by clicking on it in the grid.
+- **Fill the cell** by clicking the number buttons on the left panel.
+- **Clear a cell** using the "Clear" button to remove a number you have entered.
+- **Illegal moves** are highlighted in **red** (cannot place a number that violates Sudoku rules).
+- **Complete the puzzle** to trigger the ending scene.
+
 ## Terminal Sudoku Game
 
 A text-based version playable in the console.
@@ -66,6 +74,15 @@ A text-based version playable in the console.
 - Fixed cells displayed in parentheses
 - Invalid moves are rejected with an error message
 - Game ends when the board is correctly filled
+
+### How to Play (Terminal)
+
+- The board is displayed in the console with **fixed cells in parentheses**.
+- Enter your moves using **row, column, and number** format, e.g., `1,3=4` to place number 4 in row 1, column 3.
+- To **clear a cell**, enter `row,column=0`.
+- To **exit the game**, enter `0,0=0`.
+- **Invalid moves** (placing a number that violates Sudoku rules) are rejected with an error message.
+- Complete the puzzle to finish the game.
 
 ## Requirements & Running
 
