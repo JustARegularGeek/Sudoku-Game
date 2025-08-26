@@ -6,7 +6,6 @@ This repository contains two implementations of Sudoku in Java:
 
 Both versions are launched via the `Sudoku.java` class, which asks the user whether they want to play the graphical or terminal game.
 
-
 ## How It Works
 
 1. Run `Sudoku.java`.
@@ -17,7 +16,6 @@ Both versions are launched via the `Sudoku.java` class, which asks the user whet
    - Board size: 4x4 or 9x9
    - Difficulty level: Easy, Medium, or Hard
 
-
 ## Sudoku GUI Game
 
 A graphical Sudoku game using JavaFX.
@@ -27,7 +25,6 @@ A graphical Sudoku game using JavaFX.
 - Multiple difficulty levels (Easy, Medium, Hard)
 - Ending scene when puzzle is solved
 - Non-resizable, non-fullscreen window for consistent layout
-
 
 ## Terminal Sudoku Game
 
@@ -44,7 +41,7 @@ A text-based version playable in the console.
 
 ### Requirements
 - **Java 21 (JDK)**  
-- **JavaFX 21 SDK** (for the GUI version)  
+- **JavaFX 21 SDK** (required only for the GUI version)  
   - Download JavaFX from: [https://openjfx.io](https://openjfx.io)  
   - After extracting, you will have a folder like:
     ```
@@ -67,6 +64,7 @@ This project is best run in **Eclipse**:
 1. Import the project into Eclipse as a Java project.
 2. Make sure the JavaFX SDK is added to the module path in Eclipse.
 3. Run the `core.Sudoku` class.
+4. Select the game mode when prompted: GUI or Terminal.
 
 > Note: Running from the terminal or other IDEs requires careful module-path setup
 > and copying resources manually, which may not work out-of-the-box.  
