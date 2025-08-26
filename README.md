@@ -15,16 +15,28 @@ Both versions are launched via the `Sudoku.java` class, which asks the user whet
 3. For both versions, you will then select:
    - Board size: 4x4 or 9x9
    - Difficulty level: Easy, Medium, or Hard
-
+Di
 ## Sudoku GUI Game
 
 A graphical Sudoku game using JavaFX.
 
 ### Features
-- 4x4 and 9x9 boards
-- Multiple difficulty levels (Easy, Medium, Hard)
-- Ending scene when puzzle is solved
-- Non-resizable, non-fullscreen window for consistent layout
+
+- **4x4 and 9x9 boards**
+  ![Size Selection](images/size_scene.png)
+  ![4x4 Board](images/4x4_board.png)
+  ![9x9 Board](images/9x9_board.png)
+
+- **Multiple difficulty levels (Easy, Medium, Hard)**
+  ![Difficulty Selection](images/difficulty_scene.png)
+
+- **Ending scene when puzzle is solved**
+  ![Ending Scene](images/ending_scene.png)
+
+- **Exit scene**
+  ![Exit Scene](images/exit_scene.png)
+
+- **Non-resizable, non-fullscreen window** for consistent layout
 
 ## Terminal Sudoku Game
 
