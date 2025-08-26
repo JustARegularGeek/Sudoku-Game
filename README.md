@@ -49,9 +49,15 @@ A text-based version playable in the console.
 This project is best run in **Eclipse**:
 
 1. Import the project into Eclipse as a Java project.
-2. Make sure the JavaFX SDK is added to the module path in Eclipse.
+2. Add the JavaFX SDK to the **module path**:
+   - Open **Run Configurations → Arguments → VM arguments**.
+   - Add:
+     ```
+     --module-path "PATH_TO_YOUR_JAVAFX_LIB" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base
+     ```
+     Replace `PATH_TO_YOUR_JAVAFX_LIB` with the path to the `lib` folder of your JavaFX SDK.
 3. Run the `core.Sudoku` class.
-4. Select the game mode when prompted: GUI or Terminal.
+4. Select **GUI** or **Terminal** when prompted.
 
 > Note: Running from the terminal or other IDEs requires careful module-path setup
 > and copying resources manuall, which may not work out-of-the-box.  
